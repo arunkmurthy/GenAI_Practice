@@ -1,0 +1,30 @@
+1.
+List of Multimodels
+Groq
+1. Orpheus - Text to speech.
+2. whisper Large V3 - Speech to text.
+
+Openai
+1. GPT Realtime, GPT-4o Realtime and GPT-4o mini Realtime  - text and Audio input and output.
+2. GPT-4o mini Transcribe, GPT-4o mini TTS, TTS-1 and TTS-1 HD - Test to Speech.
+3. GPT Image 1.5 and chatgpt-image-latest - Text, Image input to text, image output. 
+
+2.
+Context window,Input output token cost
+Open AI:
+openai/gpt-5.4 - Context window: 1.05M,Input : $2.50/M Input Tokens, output: $15/M Output Tokens.
+openai/gpt-5.3-codex - Context window: 400K,Input : $1.75/M Input Tokens, output: $14/M Output Tokens.
+openai/gpt-5.1- Context window: 400K,Input : $1.25/M Input Tokens, output: $10/M Output Tokens.
+
+anthropic:
+anthropic/claude-sonnet-4.6- Context window: 1M,Input : $3/M Input Tokens, output: $15/M Output Tokens.
+anthropic/claude-opus-4.6- Context window: 1M,Input : $5/M Input Tokens, output: $25/M Output Tokens.
+anthropic/claude-haiku-4.5- Context window: 200K,Input : $1/M Input Tokens, output: $5/M Output Tokens.
+
+Google:
+google/gemini-2.5-pro- Context window: 1.05M,Input : $1.25/M Input Tokens, output: $10/M Output Tokens, Audio: $1.25/M
+google/gemini-2.5-flash-image- Context window: 33K,Input : $.3/M Input Tokens, output: $2.5/M Output Tokens, Audio: $1/M.
+google/gemini-3.1-flash-image-preview- Context window: 66K,Input : $.5/M Input Tokens, output: $3/M Output Tokens.
+
+3.Use the Tokenizer with different prompt and see how the tokens are generated.
+Checked the same for different prompts
